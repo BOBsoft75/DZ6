@@ -2,12 +2,11 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 3
 
-Console.WriteLine("Введите количество вводимых чисел:");
+Console.Write("Сколько чисел вы хотите ввести? ");
 int numb = Convert.ToInt32(Console.ReadLine());
-
 int[] array = new int[numb];
 
-int PositiveCount(int count);
+int PositiveCount(int count)
 {
     int countOfPositive = 0;
     for (int i = 0; i < count; i++)
